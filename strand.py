@@ -4,7 +4,7 @@ def solve_strand(lower_bound, upper_bound): #input the bounds of the closed inte
     for i in range(lower_bound,upper_bound+1): #length of street
         length = i
         
-        house_list = [] #creation of list of houses
+        house_list = [] #creation of street
         for j in range(1,i+1):
             house_list.append(j)
             
